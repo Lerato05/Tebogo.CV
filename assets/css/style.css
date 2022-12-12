@@ -228,8 +228,8 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
-  background-size: cover;
+  background: url("../img/tebogo2.jpeg") top center;
+  background-size: contain;
 }
 
 #hero:before {
@@ -246,7 +246,7 @@ h6 {
 #hero .hero-container {
   position: relative;
   z-index: 2;
-  min-width: 300px;
+  min-width: 100px;
 }
 
 #hero h1 {
